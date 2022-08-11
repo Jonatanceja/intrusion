@@ -2,3 +2,13 @@ title: Catalogo
 preset: pages
 templates: 
   - category
+
+drafts:
+  extends: sections/articles
+  label: Categorías en borrador
+unlisted:
+  extends: sections/articles
+  label: Categorías no listadas
+listed:
+  extends: sections/articles
+  label: Catehorías publicadas

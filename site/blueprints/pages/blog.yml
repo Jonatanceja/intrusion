@@ -3,3 +3,13 @@ preset: pages
 templates:
   - post
   - postvideo
+
+drafts:
+  extends: sections/articles
+  label: Posts en borrador
+unlisted:
+  extends: sections/articles
+  label: Posts no listados
+listed:
+  extends: sections/articles
+  label: Posts publicados
