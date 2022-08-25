@@ -15,6 +15,7 @@ columns:
           - support
           - ayuda
           - blog
+          - formation
 
   right: 
     width: 1/2

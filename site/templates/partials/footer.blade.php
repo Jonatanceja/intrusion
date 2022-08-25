@@ -36,10 +36,9 @@
     </div>
     <div class="container mx-auto py-6 border-gray-500 border-t mt-6 px-5 md:px-0 flex items-center">
         <div class="w-full md:w-3/4">
-            <p class="text-gray-500">Todos los derechos reservados <span class="font-bold">{{ $site->nombre() }} 2022</span> 2021</p>
+            <p class="text-gray-500">Todos los derechos reservados <span class="font-bold">{{ $site->nombre() }}</span> 2022</p>
         </div>
         <div class="w-full md:w-1/4 flex justify-end">
-            <a class="text-xl transform hover:scale-110 text-gray-500" href="{{ $site->facebook() }}"><i class="lni lni-facebook-filled"></i></a>
         </div>
     </div>
 </footer>

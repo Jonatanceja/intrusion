@@ -1,0 +1,21 @@
+title: Formación
+
+sections:
+  parts:
+    headline: Secciones
+    type: pages
+    status: all
+    info: "{{ page.intendedTemplate }}"
+    image: false
+    templates:
+      - slider
+      - blurbs
+      - info
+      - solutions
+      - section
+      - text
+      - jobs
+      - related
+      - cta
+      - clients
+      - video
